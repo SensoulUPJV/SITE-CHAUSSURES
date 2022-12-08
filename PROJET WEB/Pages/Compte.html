@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+
+<head>
+    <title>Creer un compte</title>
+    <meta charset="utf-8">
+    <meta name="SneakersHall" content="Creation de compte">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/compte.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<div class="container contact-form">
+    <div class="compte-image">
+        <img src="../ASSETS/logo.png" alt="rocket_contact" />
+    </div>
+
+    <form id="form1">
+        <h3>Creer un compte</h3>
+        <div class="form-group">
+            <label>Nom et prenom : </label>
+            <input type="text" required class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Adresse email : </label>
+            <input type="email" required class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Age : </label>
+            <input type="number" required class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Date de naissance : </label>
+            <input type="date" required class="form-control">
+
+            <div class="form-group">
+                <label>Informations complémentaires : </label>
+                <textarea class="form-control">Saisir ici...</textarea>
+                <label>Selectionnez votre sexe</label>
+                <select name="sexe" id="choix_sexe" class="form-control">
+                    <option value="Homme">Homme</option>
+                    <option value="Femme">Femme</option>
+                    <option value="Non précisé">Non précisé</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Voulez-vous recevoir des offres promotionnelles </label> <br>
+                <label>oui</label>
+                <input type="radio" name="fan">
+                <label>non</label>
+                <input type="radio" name="fan">
+            </div>
+
+            <div class="form-group">
+                <label>J'accepte les </label>
+                <a href="../Pages/CGU.html">conditions d'utilisation</a>
+                <input type="checkbox" name="CGU" id="CGU">
+            </div>
+            <div class="form-group">
+                <input type="submit" name="btnSubmit" class="btnContact" value="Creer" />
+            </div>
+        </div>
+    </form>
+    <div>
+        <form action="../projet.html" class="boutton">
+            <button type="submit" class="btnContact">retour a l'accueil</button>
+        </form>
+    </div>
+</div>
+
+</html>

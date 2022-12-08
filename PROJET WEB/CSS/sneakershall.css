@@ -1,0 +1,160 @@
+html{
+    background-image: url("../ASSETS/fond_bleu.jpg");
+    background-size: 100%;
+    height: 100%;
+}
+
+a,h1,p,h2,h3{
+    font-family: 'Raleway';
+}
+
+body {
+    margin: 0px 250px;
+    background-color: #ffffff;
+    min-height: 100%;
+    padding: 1px;
+}
+
+h1
+{
+    color: #0497b4;
+    background-color: #C7D1D5;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 10px;
+    padding: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bloc{
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    margin: 20px 25px;
+    padding-bottom: 10px;
+}
+
+div#banniere{
+    max-width: 100%;
+    min-width: auto;
+    overflow:hidden;
+    display: flex;
+    margin: 0 25px;
+}
+#banniere img {
+    width: 200px ;
+}
+
+.logo{
+    margin: auto;
+    margin-top: 100px;
+}
+p.logo{
+    margin-left: 0;
+    padding : 0.5em 0;
+    font-size: 5em;
+}
+
+div.navbar{
+    position: fixed; 
+    display : flex;
+}
+.navbar ul{
+    padding : 0;
+    margin : 0;
+}
+.navbar li{
+    text-align: center;
+    list-style: none;
+    background-color: #0497b4;
+    width: 135.8px; 
+    padding: 0;
+    margin: 0;
+}
+
+.navbar a{              
+    padding: 18px 0;
+    border-left: 1px solid #ccc9c9;
+    text-decoration: none; 
+    color: white; 
+    display: block;
+}
+
+.navbar li ul{
+    display: none;                
+    padding: 0; 
+    margin: 0;
+}     
+
+.navbar li:hover ul{
+    display: block;
+}
+
+.produits{
+    display: flex;
+}
+
+.produits img {   
+    max-width: 25%;
+    min-width: auto;
+    padding: 30px;
+    overflow: auto;
+}
+
+ul.apropos{
+    display: flex;
+    
+}
+ul.apropos>li{
+    padding: 1em;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0497b4;
+    font-weight: 600;
+    color: #fff;
+}
+.apropos a{
+    text-decoration: none;
+}
+
+#contact{
+    text-align: center;
+}
+
+#contact a{
+ padding: 25px;
+}
+    #contact img {
+        width: 50px;
+    }
+
+#A_propos ul,h3,p{
+    padding-left: 25px;
+}
+
+.compte{
+    float: right;
+    margin: 20px 100px;
+}
+
+.btnContact{
+    width: 30%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #0497b4;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnCompte{
+    width: 130%;
+    border: none;
+    border-radius: 1rem;
+    padding: 5.5%;
+    background: #0497b4;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
